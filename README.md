@@ -10,6 +10,9 @@ Use while-loop to print the numbers 1 to 10.
 
 
 
+// task separator
+echo "&lt;hr style=\"margin 1rem 0\"&gt;";
+
 /*
 +---+
 | 2 |
@@ -35,6 +38,9 @@ for example:
 
 
 
+// task separator
+echo "&lt;hr style=\"margin 1rem 0\"&gt;";
+
 /*
 +---+
 | 3 |
@@ -58,6 +64,9 @@ Use foreach-loop to print array elements (every food in a new row).
 
 
 
+// task separator
+echo "&lt;hr style=\"margin 1rem 0\"&gt;";
+
 /*
 +---+
 | 4 |
@@ -70,6 +79,9 @@ After looping, you need to print the closing list-tag &lt;/ul&gt;
 
 
 
+
+// task separator
+echo "&lt;hr style=\"margin 1rem 0\"&gt;";
 
 /*
 +---+
