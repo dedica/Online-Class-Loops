@@ -54,4 +54,39 @@ Use for-loop to print array elements (every food in a new row).
 /*
 Use foreach-loop to print array elements (every food in a new row).
 */
+
+
+
+
+/*
++---+
+| 4 |
++---+
+Print the array from task 3 as unordered list. Printing has to be done inside the for-loop.
+
+Before looping, you need to print the opening list-tag &lt;ul&gt;
+After looping, you need to print the closing list-tag &lt;/ul&gt;
+*/
+
+
+
+
+/*
++---+
+| 5 |
++---+
+Break down the food_assoc from the task 3 to type (salad, main course, dessert, ...) 
+and country of origin (Italy, Spain, India, ...)
+food_assoc:
+  pizza:
+    type: main course
+    origin: Italy
+  cheesesake: 
+    type:desert
+    origin: Greece
+  
+So, food_assoc is still going to be an associative array. 
+Every key of food_assoc (pizza, cheesecake) will now have the value that is associative array itself 
+and carries the information about the type and origin.
+*/
 </pre>
