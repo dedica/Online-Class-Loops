@@ -102,9 +102,9 @@ Loop through $food_assoc and use print_r() to print the entire meal course
 </pre>
 
 ## The final printing should look like this: 
-    pizza
-        type: main course
-        origin: Italy
-    cheesesake
-        type: desert
-        origin: Greece
++ pizza
+  + type: main course
+  + origin: Italy
++ cheesesake
+  + type: desert
+  + origin: Greece
