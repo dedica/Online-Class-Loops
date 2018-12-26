@@ -94,4 +94,8 @@ So, food_assoc is an associative array.
 Every key of food_assoc (pizza, cheesecake) will now have the value that is associative array itself 
 and carries the information about the type and origin.
 */
+
+/*
+Use foreach-loop 
+*/
 </pre>
