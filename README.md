@@ -75,17 +75,21 @@ After looping, you need to print the closing list-tag &lt;/ul&gt;
 +---+
 | 5 |
 +---+
-Break down the food_assoc from the task 3 to type (salad, main course, dessert, ...) 
+The array from task 3 is turned into associative array. 
+The courses are broken down based on the type (salad, main course, dessert, ...) 
 and country of origin (Italy, Spain, India, ...)
-food_assoc:
-  pizza:
-    type: main course
-    origin: Italy
-  cheesesake: 
-    type:desert
-    origin: Greece
+$food_assoc = [
+  "pizza" => [
+    "type" => "main course",
+    "origin" => "Italy"
+  ],
+  "cheesesake" => [
+    "type" => "desert",
+    "origin" => "Greece"
+  ]
+]
   
-So, food_assoc is still going to be an associative array. 
+So, food_assoc is an associative array. 
 Every key of food_assoc (pizza, cheesecake) will now have the value that is associative array itself 
 and carries the information about the type and origin.
 */
