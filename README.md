@@ -76,7 +76,7 @@ After looping, you need to print the closing list-tag &lt;/ul&gt;
 | 5 |
 +---+
 The array from task 3 is turned into associative array. 
-The courses are broken down based on the type (salad, main course, dessert, ...) 
+The meal courses are broken down based on the type (salad, main course, dessert, ...) 
 and country of origin (Italy, Spain, India, ...)
 <strong>
 $food_assoc = [
@@ -96,6 +96,15 @@ and carries the information about the type and origin.
 */
 
 /*
-Use foreach-loop 
+Loop through $food_assoc and use print_r() to print the entire meal course 
+(entire array that includes type and origin).
 */
 </pre>
+
+## The final printing should look like this: 
+    pizza
+        type: main course
+        origin: Italy
+    cheesesake
+        type: desert
+        origin: Greece
